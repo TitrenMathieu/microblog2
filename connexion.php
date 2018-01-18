@@ -2,7 +2,7 @@
     include('includes/haut.inc.php');
     include('includes/connexion.inc.php');
 
-
+//
 if(isset($_POST['email'])){
     
     $sql="SELECT email,mdp FROM utilisateurs WHERE email = :email AND mdp = :mdp";
