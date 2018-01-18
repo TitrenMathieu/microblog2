@@ -1,6 +1,7 @@
 <?php
 	include('includes/connexion.inc.php');
-    
+    //Ajout ou supprime un article/message 
+	//si le bouton supprimer est cliqué, le message est supprimer
     $a=$_GET['a'];
     $id=$_GET['id'];
 
