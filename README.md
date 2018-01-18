@@ -9,7 +9,7 @@ Ce qui est fonctionnel :
 - Affichage d'un message
 - Suppression d'un message
 - Modification d'un message
-- SID connexion
+- SID connexion (id : titren@gmail.com / mdp : 123)
 - Smarty sur l'inscription
 - Pagination sur la page index
 
