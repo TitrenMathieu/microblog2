@@ -24,7 +24,7 @@ $modifier=$_GET['id'];
     <section>
         <div class="container">
             <div class="row">              
-                <?php echo"<form method='post' action='verif.php?id=$modifier'>";
+                <?php echo"<form method='post' action='modif_verif.php?id=$modifier'>";
                 
                     ?>
                     <div class="col-sm-10">  
