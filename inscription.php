@@ -3,7 +3,7 @@
 	$smarty = new Smarty();
 	
 	//$smarty->assign('var',$var);
-	
+	//
 	include('includes/haut.inc.php');
 
 	$smarty->display('temp.tpl');
