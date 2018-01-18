@@ -40,7 +40,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Micro blog</a>
+                <a class="navbar-brand" href="index.php">Micro blog</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -50,6 +50,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
+						<form action="recherche.php" method="Post">
+                        <input type="text" name="recherche" placeholder="Rechercher " size="25">
+                        <input type="submit" value="envoyer">                           
+                        </form>
 						<a href="inscription.php" style="display:inline">Inscription</a>
                         <a href="connexion.php" style="display:inline">Connexion</a>
                 </ul>
