@@ -30,8 +30,8 @@ $modifier=$_GET['id'];
                     <div class="col-sm-10">  
                         <div class="form-group">
                             <?php 
-                            $requetemod= $pdo->query("SELECT contenu FROM messages WHERE id=$modifier");
-                            while($donnees=$requetemod->fetch()){
+                            $sqlmod= $pdo->query("SELECT contenu FROM messages WHERE id=$modifier");
+                            while($donnees=$sqlmod->fetch()){
                                 echo"<textarea id='message' name='message' class='form-control'>$donnees[0]</textarea>";
                             }
                             ?>
@@ -46,6 +46,6 @@ $modifier=$_GET['id'];
 
 <?php include('includes/bas.inc.php'); 
 
-     ?>
+?>
 
 
